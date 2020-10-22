@@ -1,0 +1,74 @@
+.container-3D {
+    width: 99%;
+}
+
+.vis-container {
+    width: 90%;
+    margin: auto;
+    height: 55vh;
+    border: 2px solid white;
+}
+
+.label {
+    width: 5px;
+    color: red;
+}
+
+.label_grid {
+    width: 1px !important;
+}
+
+.controls-3D {
+    display: flex;
+    flex-direction: row;
+}
+
+.settings-div {
+    display: inline-block;
+    max-width: 700px;
+    margin-bottom: 10px;
+
+    .rules-settings {
+        display: inline-block;
+        background-color: lightskyblue;
+        margin: 20px;
+        justify-content: center;
+        border-radius: 15px;
+
+        .settings {
+            display: inline-block;
+            margin: 0 10px;
+
+
+            .settings-sect {
+                margin: 5px 0px !important;
+            }
+
+            input {
+                margin: 0 5px;
+                width: 50px;
+                border-radius: 13%;
+                font-size: 15px;
+                height: 36px;
+                text-align: center;
+            }
+
+            #preset,
+            #colorStyle,
+            #gridSize,
+            #generationSpeed {
+                width: 40%;
+
+                #setting-load {
+                    width: 50%;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+#setting-right {
+    padding-left: 10px;
+    border-left: 2px solid black !important;
+}
